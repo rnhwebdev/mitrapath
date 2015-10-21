@@ -18,9 +18,25 @@
 
     $('#submit').click(function(event) {
         event.preventDefault();
-        $.post("/send-email", $("#email-form").serialize(), function(data) {
-            console.log(data);
-        });
+        $("#warningMessage").hide();
+        $.post("/send-email", $("#email-form").serialize())
+            .success(function (data) {
+                $("#email-form").hide();
+                $("#successMessage").show();
+            })
+            .fail(function (data) {
+                if (data.responseText === "Bad email") {
+                    $("#warningMessage").text("Please enter a valid email").show();
+                }
+                else if (data.responseText === "No name") {
+                    $("#warningMessage").text("Please enter your name").show();
+                }
+                else if (data.responseText === "No message") {
+                    $("#warningMessage").text("Please enter your message").show();
+                } else {
+                    $("#warningMessage").text("We're sorry, your message did not go through. Please try again.").show();
+                }
+            })
     });
 
     // Closes the Responsive Menu on Menu Item Click

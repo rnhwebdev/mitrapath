@@ -203,19 +203,21 @@
                 <form id="email-form">
                     <div class="form-group">
                       <label for="name">Name *</label>
-                      <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name">
+                      <input required type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name">
                     </div>
                     <div class="form-group">
                       <label for="email">Email Address *</label>
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+                      <input required type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
                     </div>
                     <div class="form-group">
                       <label for="comments">Comment *</label>
-                      <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message" title="Please enter your message"></textarea><br><br>
+                      <textarea required name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message" title="Please enter your message"></textarea><br><br>
+                      <p id="warningMessage" class="alert alert-danger">Please fill out all required fields</p>
                       <button name="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
                     </div>
                     <div class="result"></div>
                 </form>
+                <h3 id="successMessage" class="alert alert-success">Message sent!</h3>
               </div>     
                 <aside class="col-md-6">
 <!-- google map -->

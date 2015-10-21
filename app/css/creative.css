@@ -416,6 +416,14 @@ body {
   background-size: cover;
 }
 
+#warningMessage {
+    display: none;
+}
+
+#successMessage {
+    display: none;
+}
+
 #google_map {
   height: 300px;
 }

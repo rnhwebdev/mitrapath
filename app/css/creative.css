@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #CD5A5A;
+    border-color: #714d35;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #CD5A5A;
+    color: #714d35;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #CD5A5A;
+    color: #714d35;
 }
 
 h1,
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #CD5A5A;
+    background-color: #714d35;
 }
 
 .bg-dark {
@@ -90,12 +90,12 @@ section {
     font-family: "Crete Round",'Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     font-size: 2em;
-    color: #CD5A5A;
+    color: #714d35;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #CD5A5A;
+    color: #714d35;
 }
 
 .navbar-default .nav > li>a,
@@ -142,7 +142,7 @@ section {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover {
-        color: #CD5A5A;
+        color: #714d35;
     }
 
     .navbar-default.affix .nav li a {
@@ -150,17 +150,17 @@ section {
     }
 
     .navbar-default.affix .navbar-nav li a:hover {
-        color: #CD5A5A;
+        color: #714d35;
     }
 
     .navbar-default.affix .navbar-nav .active a {
         color: #fff;
-        background-color: #CD5A5A;
+        background-color: #714d35;
     }
 
     .navbar-default.affix .navbar-nav .active a:hover {
         color: #fff;
-        background-color: #CD5A5A;
+        background-color: #714d35;
     }
 }
 
@@ -270,7 +270,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #CD5A5A;
+    color: #714d35;
 }
 
 .no-gutter > [class*=col-] {
@@ -332,9 +332,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #CD5A5A;
+    border-color: #714d35;
     color: #fff;
-    background-color: #CD5A5A;
+    background-color: #714d35;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -348,7 +348,7 @@ fieldset[disabled] .btn-default.active {
 .open > .dropdown-toggle.btn-primary {
     border-color: #e65f5f;
     color: #fff;
-    background-color: #e65f5f;
+    background-color: #583A26;
 }
 
 .btn-primary:active,
@@ -375,12 +375,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #CD5A5A;
-    background-color: #CD5A5A;
+    border-color: #714d35;
+    background-color: #714d35;
 }
 
 .btn-primary .badge {
-    color: #CD5A5A;
+    color: #714d35;
     background-color: #fff;
 }
 
